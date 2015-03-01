@@ -1,0 +1,7 @@
+---
+# tasks file for postgresql (Ubuntu specific)
+
+- name: Install PostgreSQL packages
+  apt: name={{ item }} state=present update_cache=yes
+  with_items: postgresql_packages
+  tags: postgresql

@@ -1,0 +1,6 @@
+---
+# vars file for postgresql (Ubuntu specific)
+
+postgresql_packages:
+  - postgresql
+postgresql_configuration_directory: /etc/postgresql/{{ postgresql_version }}/main
