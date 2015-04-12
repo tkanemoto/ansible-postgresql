@@ -30,6 +30,13 @@ Install PostgreSQL
     - { role: kbrebanov.postgresql }
 ```
 
+Install PostgreSQL specifying version
+```
+- hosts: all
+  roles:
+    - { role: kbrebanov.postgresql, postgresql_version: 9.3 }
+```
+
 License
 -------
 
