@@ -11,17 +11,24 @@ This role requires Ansible 1.4 or higher.
 Role Variables
 --------------
 
+| Name               | Default | Description                      |
+|--------------------|---------|----------------------------------|
+| postgresql_version | 9.4     | Version of PostgreSQL to install |
+
 Dependencies
 ------------
+
+None
 
 Example Playbook
 ----------------
 
-1) Install PostgreSQL
-
-    - hosts: all
-      roles:
-         - { role: postgresql }
+Install PostgreSQL
+```
+- hosts: all
+  roles:
+    - { role: kbrebanov.postgresql }
+```
 
 License
 -------
