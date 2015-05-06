@@ -1,6 +1,8 @@
 postgresql
 ==========
 
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.postgresql-660198.svg)](https://galaxy.ansible.com/list#/roles/3384)
+
 Installs PostgreSQL
 
 Requirements
