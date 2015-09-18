@@ -1,7 +1,7 @@
 postgresql
 ==========
 
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.postgresql-660198.svg)](https://galaxy.ansible.com/list#/roles/3384)
+[![Ansible Role](https://img.shields.io/ansible/role/3384.svg)](https://galaxy.ansible.com/list#/roles/3384)
 
 Installs PostgreSQL
 
