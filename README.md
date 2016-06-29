@@ -8,13 +8,13 @@ Installs PostgreSQL
 Requirements
 ------------
 
-This role requires Ansible 1.4 or higher.
+This role requires Ansible 1.9 or higher.
 
 Role Variables
 --------------
 
 | Name               | Default | Description                      |
-|--------------------|---------|----------------------------------|
+|:-------------------|:--------|:---------------------------------|
 | postgresql_version | 9.4     | Version of PostgreSQL to install |
 
 Dependencies
