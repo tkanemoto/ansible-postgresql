@@ -26,17 +26,19 @@ Example Playbook
 ----------------
 
 Install PostgreSQL
-```
+```yaml
 - hosts: all
   roles:
-    - { role: kbrebanov.postgresql }
+    - kbrebanov.postgresql
 ```
 
 Install PostgreSQL specifying version
-```
+```yaml
 - hosts: all
+  vars:
+    postgresql_version: 9.3
   roles:
-    - { role: kbrebanov.postgresql, postgresql_version: 9.3 }
+    - kbrebanov.postgresql
 ```
 
 License
