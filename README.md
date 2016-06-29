@@ -15,7 +15,7 @@ Role Variables
 
 | Name               | Default | Description                      |
 |:-------------------|:--------|:---------------------------------|
-| postgresql_version | 9.4     | Version of PostgreSQL to install |
+| postgresql_version | 9.5     | Version of PostgreSQL to install |
 
 Dependencies
 ------------
@@ -28,15 +28,6 @@ Example Playbook
 Install PostgreSQL
 ```yaml
 - hosts: all
-  roles:
-    - kbrebanov.postgresql
-```
-
-Install PostgreSQL specifying version
-```yaml
-- hosts: all
-  vars:
-    postgresql_version: 9.3
   roles:
     - kbrebanov.postgresql
 ```
