@@ -4,7 +4,7 @@
 - name: restart postgresql
   become: yes
   service:
-    name: postgresql
+    name: "{{ postgresql_service_name }}"
     state: restarted
   tags:
     - postgresql
