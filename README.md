@@ -1,7 +1,7 @@
 postgresql
 ==========
 
-[![Ansible Role](https://img.shields.io/ansible/role/3384.svg)](https://galaxy.ansible.com/list#/roles/3384)
+[![Build Status](https://travis-ci.org/kbrebanov/ansible-postgresql.svg?branch=master)](https://travis-ci.org/kbrebanov/ansible-postgresql)
 
 Installs PostgreSQL
 
