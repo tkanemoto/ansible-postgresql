@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Kevin Brebanov
+  author: Takeshi Kanemoto
   description: Installs PostgreSQL
   company:
   license: BSD
