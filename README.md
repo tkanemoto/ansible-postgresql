@@ -3,7 +3,7 @@
 postgresql
 ==========
 
-[![Build Status](https://travis-ci.org/kbrebanov/ansible-postgresql.svg?branch=master)](https://travis-ci.org/kbrebanov/ansible-postgresql)
+[![Build Status](https://travis-ci.org/tkanemoto/ansible-postgresql.svg?branch=master)](https://travis-ci.org/tkanemoto/ansible-postgresql)
 
 Installs PostgreSQL
 
@@ -31,7 +31,7 @@ Install PostgreSQL
 ```yaml
 - hosts: all
   roles:
-    - kbrebanov.postgresql
+    - tkanemoto.postgresql
 ```
 
 License
