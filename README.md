@@ -42,4 +42,5 @@ BSD
 Author Information
 ------------------
 
-Kevin Brebanov
+Kevin Brebanov (original author)
+Takeshi Kanemoto
