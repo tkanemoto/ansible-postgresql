@@ -4,5 +4,5 @@
 postgresql_packages:
   - postgresql={{ postgresql_version }}*
   - libpq-dev={{ postgresql_version }}*
-  - python-psycopg2
+  - python3-psycopg2
 postgresql_configuration_directory: /etc/postgresql/{{ postgresql_version }}/main
